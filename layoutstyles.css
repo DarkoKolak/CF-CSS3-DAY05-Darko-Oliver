@@ -7,12 +7,12 @@ p {
   color: green; }
 
 header {
-  background-color: lightblue;
+  background-color: #83E2FF;
   height: 10%;
   margin: 0px; }
 
 nav {
-  background-color: lightblue;
+  background-color: #83E2FF;
   height: 6%;
   margin-top: 1%; }
 
@@ -28,7 +28,7 @@ nav {
     margin: -1%; }
 
 .teil {
-  background-color: lightblue; }
+  background-color: #83E2FF; }
 
 #left {
   width: 20%; }
@@ -43,12 +43,12 @@ nav {
   overflow: hidden; }
   #middle .smalldiv {
     width: 29%;
-    background-color: lightblue;
+    background-color: #83E2FF;
     height: 34%;
     margin-bottom: 2%; }
   #middle .widediv {
     width: 105%;
-    background-color: lightblue;
+    background-color: #83E2FF;
     height: 20%;
     margin-bottom: -4%; }
 
@@ -56,7 +56,7 @@ nav {
   width: 12%; }
 
 footer {
-  background-color: lightblue;
+  background-color: #83E2FF;
   height: 10%;
   margin: 0px;
   margin-top: 4%; }
