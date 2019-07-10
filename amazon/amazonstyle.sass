@@ -1,46 +1,59 @@
-.button
-	background-color: #233040
-	border: none
-	color: white
-	padding: 15px 32px
-	text-align: center
-	text-decoration: none
-	display: inline-block
-	cursor: pointer
-
 $bgc: #83E2FF
 
 
 body
 	height: 3000px
-	margin: 0px
 	width: 100%
 
 p
 	color: green
 
-header
+#header
 	display: flex
-	background-color: $bgc
+	flex-direction: row
+	flex-wrap: wrap
+	background-color: #233040
 	height: 100px
-	margin: 0px
+	margin: 0px	
+	justify-content: space-between
 
-#bar
-	height: 30px
-	background-color: green
 
 #logo
-
+	width: 100px
+	height: auto
+	
+	margin-left: 20px
+	
 #input
+	margin-left: 2%
+	margin-top: 1%
+	margin-right: 2%
+	width: 50%
+	input
+		width: 100%
+		height: 20px
 
-#shop
+#rightimg
+	height: 100%
 
-#deliver
+#leftimg
+	margin-top: -38px
+	margin-left: 15px
 
 nav
-
-ul
-
+	padding-right: 250px
+	margin-top: -25px
+	margin-right: 50px
+	width: 60%
+	display: flex
+	flex-flow: row
+	li
+		text-align: left
+		list-style-type: none
+		margin-right: 20px
+		a
+			text-decoration: none
+			color: lightgrey
 #container
 	display: flex
 	flex-direction: row
@@ -60,7 +73,6 @@ ul
 	display: flex
 	flex-flow: row
 	flex-wrap: wrap
-
 	padding-bottom: 0px
 	overflow: hidden
 	a
